@@ -1,4 +1,4 @@
-# Cypress, do Zero à Nuvem
+# Cypress Playground
 Este é um projeto do curso de Cypress do instrutor Walmyr Filho da escola Talking About Testing.
 
 ## Pré-requisitos
