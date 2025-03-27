@@ -1,42 +1,21 @@
-# 🌲 Cypress Playground 🛝
+# Cypress, do Zero à Nuvem
+Este é um projeto do curso de Cypress do instrutor Walmyr Filho da escola Talking About Testing.
 
-👋 Seja bem-vindo(a)!
+## Pré-requisitos
+Algumas tecnologias e ferramentas são necessárias para rodar o projeto, sendo elas:
+- git, versão sugerida `2.43.0`
+- node.js, versão sugerida `v22.11.0`
+- npm, versão sugerida `11.2.0`
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Instalação
+No terminal, rode `npm install` ou `npm i` para instalar as dependências necessárias.
 
-## O que você vai aprender?
+## Testes
+Neste projeto existe a possibilidades de rodar os testes na viewport desktop
 
-Ao realizar o curso Cypress Playground, você vai aprender:
+__Desktop__
+- Para o modo assistido, use o script: `npm run cy:open:web`
+- Para o modo headless, use o script: `npm run cy:run:web`
 
-- Como configurar um projeto Cypress do zero
-- Como organizar suites de testes e casos de teste
-- Como visitar páginas web
-- Como obter elementos para interação ou verificação
-- Como clicar em botões e links
-- Como digitar em campos
-- Como marcar e desmarcar _checkboxes_
-- Como marcar _radio buttons_
-- Como selecionar opções em campos de seleção suspensa
-- Como selecionar múltiplas opções em campos do tipo _select_
-- Como testar o _upload_ de arquivos
-- Como interceptar requisições e aguardar por elas antes de seguir adiante
-- Como interceptar requisições e devolver dados estáticos ao _frontend_ com o uso de fixtures
-- Como testar a falha de uma API
-- Como testar uma falha na rede
-- Como realizar requisições REST
-- Como lidar com campos do tipo _range_
-- Como lidar com campos de data
-- Como buscar dados sensíveis armazenados em locais seguros
-- Como proteger que dados sensíveis não vazem em evidências de teste
-- Como contar elementos com Cypress
-- Como congelar o relógio do navegador
-- Como usar dados gerados pela aplicação como entrada para os testes
-- Como testar a leitura de arquivos
-
-## Vamos começar?
-
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é um curso da [**Escola Talking About Testing**](https://hotmart.com/pt-br/club/talking-about-testing).
+---
+Para mais informações sobre cursos ou materiais sobre Cypress, acesse o site da escola [Talking about Testing](https://talkingabouttesting.com/).
