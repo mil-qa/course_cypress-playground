@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Repositório do curso Cypress Playground da Escola Talking About Testing.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open:web": "cypress open --config viewportWidth=1080 viewportHeight=1920",
+    "cy:run:web": "cypress run --config viewportWidth=1080 viewportHeight=1920",
+    "cy:open:mobile": "cypress open --config viewportWidth=1080 viewportHeight=1920",
+    "cy:run:mobile": "cypress run --config viewportWidth=1080 viewportHeight=1920"
   },
   "keywords": [
     "Cypress Playground",
@@ -11,5 +14,9 @@
     "Talking About Testing"
   ],
   "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
