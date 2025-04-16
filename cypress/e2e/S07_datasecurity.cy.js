@@ -6,7 +6,8 @@ describe("Course: Cypress Playground - S07: Protegendo dados sensíveis com Cypr
   );
   it("Digitar dados confidenciais", () => {
     const pwd = Cypress.env("PASSWORD");
-
+    console.log(pwd);
+    cy.log(pwd);
     cy.get("#password").type(pwd, { log: false });
     cy.get("#show-password-checkbox").check();
     cy.get('input[type="password"]#password').should("not.exist");
