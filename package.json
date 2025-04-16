@@ -6,7 +6,8 @@
     "cy:open:web": "cypress open --config viewportWidth=1080 viewportHeight=1920",
     "cy:run:web": "cypress run --config viewportWidth=1080 viewportHeight=1920",
     "cy:open:mobile": "cypress open --config viewportWidth=1080 viewportHeight=1920",
-    "cy:run:mobile": "cypress run --config viewportWidth=1080 viewportHeight=1920"
+    "cy:run:mobile": "cypress run --config viewportWidth=1080 viewportHeight=1920",
+    "cy:cloud": "cypress run --record"
   },
   "keywords": [
     "Cypress Playground",
